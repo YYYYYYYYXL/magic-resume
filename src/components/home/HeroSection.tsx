@@ -23,14 +23,14 @@ export default function HeroSection() {
         <AnimatedFeature>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10 text-primary mb-10 backdrop-blur-sm">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium tracking-wide italic">{t("hero.badge")}</span>
+            <span className="text-xl font-medium tracking-wide italic">{t("hero.badge")}</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-serif font-semibold tracking-tight leading-[1.1] mb-8 text-foreground/90">
             {t("hero.title")}
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed font-light">
+          <p className="text-xl md:text-2xl text-red-600 mb-12 max-w-2xl mx-auto leading-relaxed font-light">
             {t("hero.subtitle")}
           </p>
 
